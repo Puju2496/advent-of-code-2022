@@ -9,7 +9,7 @@ fun main() {
     part2(elfs)
 }
 
-fun part1(input: List<String>): List<Int> {
+private fun part1(input: List<String>): List<Int> {
     var sum = 0
     val elfs = mutableListOf<Int>()
     var max = 0
@@ -29,7 +29,7 @@ fun part1(input: List<String>): List<Int> {
     return elfs
 }
 
-fun part2(elfs: List<Int>) {
+private fun part2(elfs: List<Int>) {
     val max: Int = elfs.max()
     var max2 = 0
     var max3 = 0
